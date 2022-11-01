@@ -12,13 +12,13 @@ void main(){
         else{
             printf("Masukkan nilai pertama : "); scanf("%f", &a);
             printf("Masukkan nilai kedua   : "); scanf("%f", &b);
-            if(p = 1){
+            if(p == 1){
             hsl = a + b;
             printf("Hasil Penjumlalahan antara %.2f dengan %.2f adalah %.2f\n\n", a, b, hsl);}
-            else if(p = 2){
+            else if(p == 2){
             hsl = a - b;
             printf("Hasil Pengurangan antara %.2f dengan %.2f adalah %.2f\n\n", a ,b, hsl);}
-            else if(p = 3){
+            else if(p == 3){
             hsl = a * b;
             printf("Hasil Perkalian antara %.2f dengan %.2f adalah %.2f\n\n", a ,b, hsl);}
             else {
