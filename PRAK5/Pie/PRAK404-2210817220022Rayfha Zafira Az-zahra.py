@@ -1,6 +1,6 @@
 a = 1
 while a != 5 :
-        print("Pilih program \n1. Penjumlahan \n2. Pengurangan \n3. Perkalian \n4. Pembagian \n5. Exit\n");
+        print("Pilih program \n1. Penjumlahan \n2. Pengurangan \n3. Perkalian \n4. Pembagian \n5. Exit\n")
         p = float(input("Masukkan Pilihan : "))
         if p == 5 :
             print("Terimakasih, telah menggunakan kalkulator Rayfha Zafira Az-zahra\n\n")
